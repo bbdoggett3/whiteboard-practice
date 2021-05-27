@@ -11,13 +11,13 @@
     //Step 2: You will need to loop through the string and check if it has any '!' in the string. If it doesn remove them.
     
 function removeExclamationMarks(string) {
-    let newString = string;
+    // let newString = string;
 
-    while (newString[newString.length - 1] === "!") {
-        newString = newString.slice(0, -1);
-    }
+    // while (newString[newString.length - 1] === "!") {
+    //     newString = newString.slice(0, -1);
+    // }
 
-    return newString;
+    // return newString;
 }
 
 let newString = string;
@@ -28,3 +28,5 @@ for(let i = 0; i < newString.length; i++) {
     }
     return newString;
 }
+
+
