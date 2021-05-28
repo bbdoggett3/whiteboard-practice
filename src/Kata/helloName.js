@@ -13,4 +13,6 @@ function hello(name) {
     }
   }
 
+  console.log(hello("Ben"))
+
   //PASSED
