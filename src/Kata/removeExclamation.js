@@ -11,14 +11,5 @@
     //Step 2: You will need to loop through the string and check if it has any '!' in the string. If it doesn remove them.
     
 function removeExclamationMarks(s) {
-    let newString = s;
-
-    while (newString[newString.length - 1] === "!") {
-        newString = newString.slice(0, -1);
-    }
-
-    return newString;
+    return s.replace(/!/g, '');
 }
-
-
-
