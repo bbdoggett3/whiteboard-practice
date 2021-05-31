@@ -17,3 +17,5 @@ function sum(str1, str2) {
       return strTotal;
   
   }
+
+  //I have completed this KATA
