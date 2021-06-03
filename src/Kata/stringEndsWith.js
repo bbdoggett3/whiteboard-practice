@@ -8,7 +8,7 @@
 //FUNCTION SIGNATURE
 //function(string, string) => string
 
-//NEED TO FINISH KATA
+//NEED TO FINISH KATA CHALLENGE
 function solution(str, ending) {
     for(let i = 0; i < str.length; i++) {
         if(str.charAt(str.length - 1) === ending) {
