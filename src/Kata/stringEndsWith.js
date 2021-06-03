@@ -13,8 +13,7 @@ function solution(str, ending) {
     for(let i = 0; i < str.length; i++) {
         if(str.charAt(str.length - 1) === ending) {
             return true
-        } else {
-            return false
-        }
+        } else return false
+        
     }
 }
