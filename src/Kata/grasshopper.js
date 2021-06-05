@@ -1,3 +1,5 @@
+//FOLLOW THESE STEPS WHEN WORKING THROUGH A PROBLEM
+
 //CLARIFY THE PROBLEM
 //The function should return true if the player's health is greater than 0 or false if it is 0 or below.
 //health which will always be a whole number between -10 and 10. 
