@@ -27,3 +27,4 @@ function checkAlive (health) {
   }
 
   //PASSED
+  //Simple Kata to understand the basic setup of a problem. This can help you tackle a majority of problems.
