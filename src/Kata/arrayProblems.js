@@ -38,3 +38,23 @@ function reverse(arr) {
     }
     return reverse;
 }
+
+//PROBLEM Sort the Array in ascending order
+
+//CLARIFY 
+//1. Are we only sorting one array in this problem?
+//2. Is there any other variables that I should be concerned about? OR conditions?
+
+//FUNCTION SIGNTATURE 
+//function(arr) -> NewArr
+
+//DUMMY DATA:
+// Input: arr[] = {0, 23, 14, 12, 9}
+// Output: {0, 9, 12, 14, 23}
+
+//PSUEDO CODE:
+//Step 1: Create a function called orderArray that takes in an array as its parameter(only one parameter will be passed).
+//Step 2: Need to create a variable called "NewArr" that will be assigned to a blank array.
+//Step 3: We need to create a for loop that will check the acending order of array, and then push those arrays to a new one.
+//Step 4: You will then need to return the newArr and console it to the screen.
+
