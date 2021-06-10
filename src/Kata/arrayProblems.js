@@ -28,3 +28,13 @@ function reverseArr(arr) {
 }
 
 console.log(reverseArr(arr));
+
+//We can also build out this reverse method ourselves with the following code...
+function reverse(arr) {
+    let reverse = [];
+
+    for(let i = arr.length - 1; i >= 0; i--) {
+        reverse.push(arr[i]);
+    }
+    return reverse;
+}
