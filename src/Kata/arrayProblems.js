@@ -58,3 +58,16 @@ function reverse(arr) {
 //Step 3: We need to create a for loop that will check the acending order of array, and then push those arrays to a new one.
 //Step 4: You will then need to return the newArr and console it to the screen.
 
+//TIME TO CODE - YOU GOT THIS BRO!
+let arr = [0, 23, 14, 12, 9];
+
+function orderArray(array) {
+//   Optional. A function that defines an alternative sort order. The function should return a negative, zero, or positive value, depending on the arguments, like:
+// function(a, b){return a-b}
+// When the sort() method compares two values, it sends the values to the compare function, and sorts the values according to the returned (negative, zero, positive) value.
+    let newArr = array.sort(function(a, b){return a-b});
+
+    return newArr;
+}
+
+console.log(orderArray(arr));
