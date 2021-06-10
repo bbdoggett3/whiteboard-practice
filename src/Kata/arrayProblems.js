@@ -66,6 +66,7 @@ function orderArray(array) {
 // function(a, b){return a-b}
 // When the sort() method compares two values, it sends the values to the compare function, and sorts the values according to the returned (negative, zero, positive) value.
     let newArr = array.sort(function(a, b){return a-b});
+    //You can use some syntax sugar here and add an arrow function as an example: arr.sort((a, b) => a-b;)
 
     return newArr;
 }
