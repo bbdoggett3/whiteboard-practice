@@ -71,4 +71,20 @@ function orderArray(array) {
     return newArr;
 }
 
+//CODING CHALLENGE FROM EARLIER
 console.log(orderArray(arr));
+
+let arr = [2,1,4,4,5,5]
+
+function sumRepeatNum(arr) {
+  let sum = [];
+
+  for(let i = 0; i < arr.length; i++) {
+    if(arr[i] === arr[i + 1]) {
+      arr.push(sum);
+    }
+  }
+return sum;
+}
+
+sumRepeatNum(arr)
