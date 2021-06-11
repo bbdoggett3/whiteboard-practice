@@ -73,6 +73,7 @@ function orderArray(array) {
 
 //PROBLEM: Create a Function that will take in an array and check if the next number in the array is the same as the last. If it is then add it together with all the other numbers that follow that same pattern
 
+//You got this Ben!
 let arr = [2,1,4,4,5,5] //ouput should be 9
 let arr2 = [4,4,4,5] //output should be 8
 let arr3 = [1,3,4,6,7] //output should be 0
