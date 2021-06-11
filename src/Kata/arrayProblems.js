@@ -71,20 +71,24 @@ function orderArray(array) {
     return newArr;
 }
 
-//CODING CHALLENGE FROM EARLIER
-console.log(orderArray(arr));
+//PROBLEM: Create a Function that will take in an array and check if the next number in the array is the same as the last. If it is then add it together with all the other numbers that follow that same pattern
 
-let arr = [2,1,4,4,5,5]
+let arr = [2,1,4,4,5,5] //ouput should be 9
+let arr2 = [4,4,4,5] //output should be 8
+let arr3 = [1,3,4,6,7] //output should be 0
 
 function sumRepeatNum(arr) {
   let sum = [];
+  let total;
+  const reducer = (accumulator, currentValue) => accumulator + currentValue;
 
   for(let i = 0; i < arr.length; i++) {
     if(arr[i] === arr[i + 1]) {
-      arr.push(sum);
-    }
+      sum.push(arr[i]);
+      total = sum.reduce(reducer);
+    } else return 0;
   }
-return sum;
+return total;
 }
 
-sumRepeatNum(arr)
+sumRepeatNum(arr3)
