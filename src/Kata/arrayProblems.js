@@ -123,8 +123,11 @@ let str = "zbk";
 let arr =[0,1];
 
 function lastSurvivor(letters, arr) {
-  console.log(letters);
-  console.log(arr);
+  letters = letters.split('');
+  for (let i = 0; i < arr.length; i++) {
+     letters.splice(arr[i], 1)
+  }
+  return letters.join('')
 }
 
-console.log(lastSurvivor(array))
+console.log(lastSurvivor(str, arr))
