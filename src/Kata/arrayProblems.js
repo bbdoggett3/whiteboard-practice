@@ -119,7 +119,12 @@ sumRepeatNum(arr3)
 //step 1: create a function called lastSurvivor that takes in two parameters, one is a string and the other is an array.
 //step 2: 
 
+let str = "zbk";
+let arr =[0,1];
 
 function lastSurvivor(letters, arr) {
-  
+  console.log(letters);
+  console.log(arr);
 }
+
+console.log(lastSurvivor(array))
