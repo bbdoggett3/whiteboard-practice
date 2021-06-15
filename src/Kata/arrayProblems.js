@@ -117,7 +117,7 @@ sumRepeatNum(arr3)
 
 //PSEUDO CODE
 //step 1: create a function called lastSurvivor that takes in two parameters, one is a string and the other is an array.
-//step 2: 
+//step 2: split the string you pass in to the parameters and make it an array.
 
 let str = "zbk";
 let arr =[0,1];
